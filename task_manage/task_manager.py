@@ -1,5 +1,5 @@
 from datetime import datetime
-from task_tracker.storage import load_task, save_task
+from storage import load_task, save_task
 
 #Function to add the task
 def add_task(description):
